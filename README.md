@@ -39,10 +39,9 @@ This project is developed using standard web technologies:
 •	Development Tools: A standard web browser (e.g., Chrome, Firefox) for viewing and testing, and a code editor (e.g., Visual Studio Code) for development.
 
 How to Run the Project
-1	Unzip the project folder: Extract the contents of restaurant_project_v2.zip to your desired location.
-2	Open index.html: Navigate to the extracted restaurant_project_v2 folder and open the index.html file in your web browser. This will take you to the login page.
-3	Login: Enter any username and password (the login is simulated and does not require specific credentials) and click "دخول" (Login) to proceed to the home page.
-4	Explore: Use the navigation bar to explore the different menus, offers, and manage your orders.
+1	Open index.html: Navigate to the extracted Delicious Meals Restaurant folder and open the index.html file in your web browser. This will take you to the login page.
+2	Login: Enter any username and password (the login is simulated and does not require specific credentials) and click "دخول" (Login) to proceed to the home page.
+3	Explore: Use the navigation bar to explore the different menus, offers, and manage your orders.
 
 
 
