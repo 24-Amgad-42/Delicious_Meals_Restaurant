@@ -47,7 +47,7 @@ header {
 
 nav {
     background-color: #3b3647;
-    padding: 10px 20px;
+    padding: 15px 10px;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -60,19 +60,24 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 1100px; 
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
 }
 
 nav button, 
 nav ul li a {
     color: #3b3647;      
     background-color: #f1f1f1;  
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
@@ -80,7 +85,9 @@ nav ul li a {
     cursor: pointer;
     transition: all 0.3s ease;     
     display: inline-block;     
-    transform: scale(0.95);    
+    transform: scale(0.95);
+    font-size: 14px;
+    white-space: nowrap;    
 }
 
 nav button:hover, 
@@ -281,57 +288,19 @@ footer {
     padding: 30px;
     color: #888;
 }
-@media (min-width: 601px) {
+@media screen and (min-width: 601px) {
     #contact-form button[type="submit"] {
-        width: auto;
+        width: auto; 
+    }
+    nav button, 
+    nav ul li a {
+        padding: 10px 15px; 
+        font-size: 15px;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-
-    .menu-items {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .item {
-        width: 100%;
-        max-width: 300px;
-        margin: auto;
-    }
-}
-
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .menu-items {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
-
-    .item {
-        width: 100%;
-        max-width: 280px;
-        margin: auto;
-    }
-
+@media screen and (min-width: 769px) {
     main {
-        width: 95%;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
-
-    .menu-items {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
-
-    .item {
-        width: 100%;
-        max-width: 260px;
+        width: 95%; 
     }
 }
